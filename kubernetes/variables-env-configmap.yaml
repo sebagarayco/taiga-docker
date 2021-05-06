@@ -3,6 +3,14 @@ kind: ConfigMap
 metadata:
   name: variables-env  
 data:
+  #EMAIL_BACKEND: "django.core.mail.backends.smtp.EmailBackend"
+  #DEFAULT_FROM_EMAIL: "no-reply@example.com"
+  #EMAIL_HOST: "smtp.host.example.com"
+  #EMAIL_PORT: 587
+  #EMAIL_HOST_USER: "user"
+  #EMAIL_HOST_PASSWORD: "password"
+  #EMAIL_USE_TLS: "True"
+  #EMAIL_USE_SSL: "True"
   ENABLE_TELEMETRY: "True"
   POSTGRES_DB: "taiga"
   POSTGRES_HOST: "taiga-db"
