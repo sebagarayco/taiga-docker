@@ -28,4 +28,4 @@ data:
   TAIGA_SITES_DOMAIN: "taiga6-dev.domain.local"
   TAIGA_SITES_SCHEME: "https"
   TAIGA_URL: "https://taiga6-dev.domain.local"
-  TAIGA_WEBSOCKETS_URL: "ws://taiga6-dev.domain.local"
+  TAIGA_WEBSOCKETS_URL: "wss://taiga6-dev.domain.local"

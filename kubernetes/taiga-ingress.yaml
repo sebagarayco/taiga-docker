@@ -8,8 +8,8 @@ spec:
     # Replace by your own domain
     fqdn: taiga6-dev.domain.local
   # Optional   
-  #  tls:
-  #    secretName: certificate-secret
+    tls:
+      secretName: certificate-secret
   routes:
     - conditions:
       - prefix: /static
